@@ -1,0 +1,314 @@
+body {
+	background-image: url("images/sand1.png");
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+
+.wide-col {
+	width: 100%;
+	height: 40%;
+	display: flex;
+}
+
+.narrow-col {
+	width: 100%;
+	height: 52%;
+	display: flex;
+}
+
+.col1 {
+	height: 100%;
+	width: 25%;
+}
+
+.col2 {
+	height: 100%;
+	width: 43.75%;
+}
+
+.col3 {
+	height: 100%;
+	width: 31.25%;
+}
+
+.box{
+	height: 60%;
+	width: 100%;
+}
+
+.box2{
+	height: 40%;
+	width: 100%;
+}
+
+.box3{
+	height: 30%;
+	width: 100%;
+}
+.box4{
+	height: 70%;
+	width: 100%;	
+}
+
+.box5{
+	height: 42%;
+	width: 100%;	
+}
+
+.box6{
+	height: 58%;
+	width: 100%;	
+}
+
+.extrabox{
+		display: none;
+	 }
+
+p{
+	font-size: 25px;
+	color:#4a6d7c; 
+	font:Dosis;
+	background-color: white;
+}
+
+p1{
+	font-size: 25px;
+	color:#4a6d7c; 
+	font:Dosis;
+	background-color: white;
+}
+
+.img {
+	margin-left: 20%;
+	max-height: 70%;
+	max-width: 80%;
+	border-style:solid;
+	border-width:20px;
+	border-color:#6a9ba3ff;
+}
+
+.img1 {
+	margin: 10%;
+	margin-top: 0%;
+	max-height: 50%;
+	max-width: 65%;
+	border-style:solid;
+	border-width:20px;
+	border-color:#4a6d7cff;
+}
+
+.img2 {
+	margin: 10%;
+	margin-top: 8%;
+	max-height: 60%;
+	max-width: 70%;
+	border-style:solid;
+	border-width:20px;
+	border-color:#b4894eff;
+}
+
+.img3 {
+	margin: 30%;
+	margin-top: 5%;
+	max-height: 70%;
+	max-width: 100%;
+	border-style:solid;
+	border-width:20px;
+	border-color:#96c984ff;
+}
+
+.img4 {
+	margin: 0;
+	max-height: 75%;
+	max-width: 75%;
+	border-style:solid;
+	border-width:15px;
+	border-color:#ffab40ff;
+}
+
+.img5 {
+	display: none;
+}
+
+.img6 {
+	display:none;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  left: 1850;
+}
+
+div.fixed2 {
+  position: fixed;
+  bottom: 0;
+  left: 1850;
+}
+
+div.fixed3 {
+  position: fixed;
+  bottom: 0;
+  right: 1850;
+}
+
+.cornerimg {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* this is the first change in the page */
+@media only screen and (max-width: 700px) {
+	body {
+		background-image: url("images/ocean.png");
+	}
+
+	.wide-col {
+		width: 100%;
+		height: 15%;
+	}
+
+	.narrow-col {
+		display: block;
+		width: 100%;
+		height: 70%;  
+	}
+		
+	.extra-col{
+		display: flex;
+		width: 100%;
+		height: 15%;  
+	}	
+	
+	.col1 {
+		order: 2;
+		display: flex;
+		height: 25%;
+		width: 100%;
+	}
+
+	.col2 {
+		order: 0;
+		display: flex;
+		height: 43.75%;
+		width: 100%;
+	}
+
+	.col3 {
+		order: 1;
+		display: flex;
+		height: 31.25%;
+		width: 100%;
+	}
+	
+	.evenextracol{
+		height: 100%;
+		width: 100%;
+	}
+	
+	.box{
+		height: 100%;
+		width: 42%;
+	}
+
+	.box2{
+		height: 100%;
+		width: 58%;
+		background-color: transparent;
+	}
+
+	.box3{
+		height: 100%;
+		width: 33%;
+		background-color: transparent;
+	}
+
+	.box4{
+		height: 100%;
+		width: 67%;	
+		order: 2;
+	}
+
+	.box5{
+		height: 100%;
+		width: 60%;	
+		order: 0;
+	}
+
+	.box6{
+		height: 100%;
+		width: 40%;	
+		order: 1;
+	}
+
+	.img {
+		border-color:#6a9ba3;
+	}
+
+	.img1 {
+		border-color:#4a6d7c;
+		margin-top: 25px;
+	}
+
+	.img2 {
+		border-color:#b4894e;
+	}
+
+	.img3 {
+		border-color:#96c984;
+	}
+
+	.img4 {
+		border-color:#ffab40;
+	}
+
+	.img5 {
+		display: flex;
+		margin: 20%;
+		margin-top: 5%;
+		max-height: 70%;
+		max-width: 100%;
+		border-style:solid;
+		border-width:20px;
+		border-color:#f0e281;
+	}
+
+	.img6 {
+		display: block;
+		margin-left: 50px;
+		max-height: 75%;
+		max-width: 75%;
+		border-style:solid;
+		border-width:15px;
+		border-color:#519e37;
+	}
+
+     .extrabox{
+		display: block;
+		height: 100%;
+		width: 100%;
+	 }
+	 
+	 p{
+		 display: none;
+	 }
+	 
+	 div.fixed {
+		display: none;
+	}
+
+	div.fixed2 {
+		display: none;
+	}
+	
+	div.fixed3 {
+		display: none;
+	}
+}
