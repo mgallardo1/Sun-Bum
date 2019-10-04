@@ -167,7 +167,7 @@ div.fixed3 {
 /* this is the first change in the page */
 @media only screen and (max-width: 700px) {
 	body {
-		background-image: url("images/ocean.png");
+		background-image: url("images/ocean.png"); /* We changed the background image, to show the difference of when you are 10 feet in sand, and 10 feet in ocean */
 	}
 
 	.wide-col {
@@ -182,7 +182,7 @@ div.fixed3 {
 	}
 		
 	.extra-col{
-		display: flex;
+		display: flex; /* The display flex function was unnecessary, but we add it to counter the display none function previously used*/
 		width: 100%;
 		height: 15%;  
 	}	
